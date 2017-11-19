@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stel/workspace-code/raycasting/cglib.cpp
+cglib.hpp
+/home/stel/workspace-code/raycasting/cglib.hpp
+iostream
+-
+SDL2/SDL_image.h
+-
+cassert
+-
+
+/home/stel/workspace-code/raycasting/cglib.hpp
+functional
+-
+unordered_map
+-
+cassert
+-
+SDL2/SDL.h
+-
+SDL2/SDL_ttf.h
+-
+string
+-
+sstream
+-
+iostream
+-
+
+/home/stel/workspace-code/raycasting/main.cpp
+iostream
+-
+vector
+-
+cglib.hpp
+/home/stel/workspace-code/raycasting/cglib.hpp
+
