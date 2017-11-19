@@ -220,7 +220,9 @@ int main()
                 buffer[y][x] = color;
 
                 //Draw the individual pixel. May be faster if a buffer is used
-                renderer.drawPoint(x, y, color);
+                //renderer.drawPoint(x, y, color);
+
+                std::cout << color << std::endl;
 
             }
 
